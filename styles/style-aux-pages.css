@@ -1,1 +1,98 @@
-body{display:grid;width:100%;grid-template-areas:"header  header" "main     main" "footer  footer";grid-template-rows:80px 1fr 60px;grid-template-columns:200px 1fr;min-height:100vh;max-height:100vh;margin-left:0;margin-top:0;font-family:Roboto,sans-serif;font-weight:300;margin-bottom:0}body>header{grid-area:header}body>main{grid-area:main}body>footer{grid-area:footer}header{border-bottom:1px solid #dcdcdc}main{border-top:0 solid #dcdcdc}footer{border-top:1px solid #dcdcdc}header{background-color:#fff}main{background-color:#fff}footer{background-color:#fff}header{padding-left:2rem;position:relative}header>h1{margin-top:0;margin-bottom:0;font-size:26px;position:absolute;top:50%;transform:translateY(-50%)}main{overflow:hidden;margin-left:30%;margin-right:30%;margin-top:30px}::-webkit-scrollbar{width:10px}::-webkit-scrollbar-track{background:#fff}::-webkit-scrollbar-thumb{background:#ff1493}footer{text-align:center}.footer_element{display:inline-block;margin-top:20px;margin-left:20px;margin-right:20px}a{display:block;color:#000;text-decoration:none;position:relative}
+/* ====> GRID AND GENERAL STUFF <==== */
+
+body {
+
+    /* Grid construction */
+
+    display: grid;
+    width: 100%;
+
+    grid-template-areas: "header  header"
+                         "main     main"
+                         "footer  footer";
+
+    grid-template-rows:     80px  1fr 60px;
+    grid-template-columns:  200px 1fr;
+    min-height: 100vh;
+    max-height: 100vh;
+  
+    /* Eliminate anoying automatic margins */
+    margin-left: 0px;  
+    margin-top: 0px;
+  
+    /* One simple easy to read font, thx google */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+    margin-bottom: 0px;
+  }
+
+/* ====> ELEMENT CALLOUTS <==== */
+
+  body > header {grid-area: header;}
+  body > main   {grid-area: main;}
+  body > footer {grid-area: footer;}
+
+/* ====> ALL SEPARATION BORDERS <==== */
+
+  header  {border-bottom: 1px solid #DCDCDC;}
+  main    {border-top:    0px solid #DCDCDC;}
+  footer  {border-top:    1px solid #DCDCDC;}
+
+/* ====> AREA COLORS <==== */
+
+  header  {background-color: white;}
+  main    {background-color: white;}
+  footer  {background-color: white;}
+
+/* ====> SIMPLE HEADER */
+
+  header {
+  /*  border-top: 8px solid black;    /* the little trendy black border on top */
+    padding-left: 2rem;             /* the text should never be in the border of the browser vw used to make it dynamic */              
+    position: relative;             /* in order to center the h1 below */ 
+  }
+
+  header > h1 {
+    margin-top: 0px;                /* fuck margins */
+    margin-bottom: 0px;             /* fuck margins */
+    font-size: 26px;                /* the title was too big */
+    position: absolute;             /* center Y */
+    top:50%;                        /* center Y */
+    transform: translateY(-50%);    /* center Y */
+  }
+
+/* ====> MAIN TABLE AREA <==== */
+
+  main {
+    overflow: auto;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 30px;
+  }
+
+/* custom scroll to fit design */
+
+::-webkit-scrollbar         {width: 10px;}
+::-webkit-scrollbar-track   {background: white;}
+::-webkit-scrollbar-thumb   {background: deeppink;}
+
+
+footer{
+  text-align: center;
+}
+
+.footer_element{
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+a{
+  display: block;
+  color: black;
+  text-decoration: none;
+  position: relative;
+}
