@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
--<urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
--<url>
+<url>
     <loc>http://nobscompare.com/</loc>
     <lastmod>2020-05-24T17:15:35+00:00</lastmod>
     <priority>1.00</priority>
 </url>
 
--<url>
+<url>
     <loc>http://nobscompare.com/en/hdd.html</loc>
     <lastmod>2020-05-24T17:15:35+00:00</lastmod>
     <priority>0.80</priority>
 </url>
 
 
--<url>
+<url>
     <loc>http://nobscompare.com/index.html</loc>
     <lastmod>2020-05-24T17:15:35+00:00</lastmod>
     <priority>0.64</priority>
